@@ -18,7 +18,7 @@ class BaseForNNIblocks20 extends DataManager
 {
     protected static string $iblockApiCode = '';
 
-    public static function getTableName()
+    public static function getTableName() : string
     {
         return 'b_iblock_element_prop_s' . static::getIblockId();
     }
